@@ -10,7 +10,6 @@ const PasswordGeneratorBody = (props) => {
     form.forEach((value, key) => {
       formData[key] = value;
     });
-    console.log('formData', formData);
 
     // Generate new password and pass it to parent component
     props.onButtonClick(generatePassword(formData));
