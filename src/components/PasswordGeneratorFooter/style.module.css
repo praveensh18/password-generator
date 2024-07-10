@@ -1,0 +1,22 @@
+.root {
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  position: relative;
+}
+
+.copy_img {
+  width: 15px;
+  cursor: pointer;
+}
+
+.copyText {
+  color: grey;
+  font-size: 10px;
+  position: absolute;
+  right: 30px;
+  bottom: 20px;
+  animation: 2s ease 0s 1 normal none running fadeOut;
+}

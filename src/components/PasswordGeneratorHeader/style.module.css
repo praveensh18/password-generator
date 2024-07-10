@@ -1,0 +1,14 @@
+.root {
+	display: flex;
+	justify-content: space-between;
+}
+
+.title {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.lockIcon {
+	height: 20px;
+	width: 20px;
+}
